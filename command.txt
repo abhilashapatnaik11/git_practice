@@ -1,0 +1,4 @@
+git clone https://github.com/abhilashapatnaik11/git_practice.git (clone the repo)
+git add . (add the changes in current directory for next commit)
+git commit -m "commit msg" ( used to create a new commit msg to stage/save)
+git push origin main (push from local to virtusl repo)
