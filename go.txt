@@ -1,0 +1,25 @@
+package main // compiler starts the exection from this package
+import "fmt" // fmt is a standard package to format the print line
+
+func main() {
+	// fmt.Println("Hii Nehu i am here!!! ")
+	//How to define a variable
+	//1
+	var x int
+	x=10
+	fmt.Println(x)
+	//m-2
+	y:=10
+	fmt.Println(y)
+
+
+}
+
+
+// int- integer which can store int8 (8bit of interger) ,int16,int32,int64
+ //float - floatting point number(12.2,25.06) float8,float16,float32,float64
+ //bool- true or false , boolean type
+ //string - '',"" or `` (double quotes or back quotes)
+ //uint -unsigned integer int8 (8bit of interger) ,int16,int32,int64
+ //byte - it is the alias for uint8 which can be used to store ASCII value.
+ //rune - It is the alias for int32 which can be used to store UTF-8 encoded string
